@@ -3,9 +3,7 @@ const express = require("express");
 const app = express();
 
 // Connect to MongoDB
-mongoose.connect(
-  "mongodb+srv://teerth17:1704003d@cluster0.8scez.mongodb.net/course_selling_app"
-);
+mongoose.connect("MongoDB URL");
 // Define schemas
 const AdminSchema = new mongoose.Schema({
   // Schema definition here
